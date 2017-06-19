@@ -52,6 +52,7 @@ function Node(key){
         return false; //if it doesn't exist in tree :-p
     }
 
+    //Need to still write rebalancing logic?
     this.delete = function(val){
         if(this.key == val) {
             this.deleted = true;
