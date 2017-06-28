@@ -12,9 +12,6 @@ var spiralOrder = function(arr) {
 
     while(true){
 
-        // console.log(arr[0].shift());
-        // console.log(arr)
-
         if(arr.length === 0 || arr[0].length === 0)
             break;
 
